@@ -1,13 +1,35 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+/**
+ * HotelBookingApp
+ *
+ * This class represents the entry point of the Hotel Booking System application.
+ * The program demonstrates how a Java application starts execution using the
+ * main() method and prints a welcome message to the console.
+ *
+ * The application displays the system name and version information when launched.
+ *
+ * @author YourName
+ * @version 1.0
+ */
+public class Main{
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+    /**
+     * Main method - Entry point of the Java application.
+     * The JVM invokes this method when the program is executed.
+     *
+     * @param args Command line arguments passed during program execution
+     */
+    public static void main(String[] args) {
+
+        // Display welcome message
+        System.out.println("==================================");
+        System.out.println(" Welcome to Hotel Booking System ");
+        System.out.println(" Version: 1.0 ");
+        System.out.println("==================================");
+
+        // Inform user that application has started
+        System.out.println("Application started successfully.");
+
+        // Inform user that program execution is complete
+        System.out.println("Application terminated.");
     }
 }
